@@ -43,7 +43,8 @@ El API permite realizar las siguientes operaciones CRUD:
 
 2. **Configuración de AWS Lambda**:
    - Sube el código fuente a AWS Lambda.
-   - Configura el entorno de ejecución, asegurándote de incluir las dependencias necesarias para conectarte a la base de datos.
+   - Configura el entorno de ejecución, asegurándote de incluir las dependencias necesarias.
+   - Configura la conexión a la base de datos utilizando AWS Secrets Manager para gestionar las credenciales de forma segura.
 
 3. **Configuración de API Gateway**:
    - Configura API Gateway para exponer los endpoints mencionados anteriormente.
